@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: #F8F8F8;
+    font-size: 12px;
+    color: #999;
+}
+
+a {
+    color: #666;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.hand:hover {
+    cursor: pointer;
+}
+
+.block {
+    display: none;
+    position: absolute;
+    background: white;
+    right: -1px;
+    left: -1px;
+    min-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 6px;
+    border: 1px solid #E5E5E5;
+    border-top: 0;
+    z-index: 99;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.moreBlock {
+    left: auto;
+}
+
+.dropDown {
+    position: relative;
+}
+
+.dropDown:hover .block {
+    display: block;
+}
+
+.handRed:hover {
+    cursor: pointer;
+    color: #FE8C00 !important;
+}
+
+.overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.overflowTwo {
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.overflowOne {
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.listAll {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.listAllStart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centeY {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.listOne {
+    flex: 1;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.allCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginY {
+    margin: 15px 0;
+}
+
+.paddingY {
+    padding: 15px 0;
+}
+
+.wrap {
+    max-width: 1190px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+.titleWord {
+    font-size: 20px;
+}
+
+.small {
+    color: #999;
+    font-size: 15px;
+}
+
+.smaller {
+    color: #999;
+    font-size: 11px;
+}
+
+.red {
+    color: red;
+}
+
+.flex {
+    display: flex;
+}
+
+.blod {
+    font-weight: bold;
+}
+
+.noWrap {
+    white-space: nowrap;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.angle {
+    border-radius: 5px;
+}
+
+.border {
+    border-bottom: 1px solid #ccc;
+}
+
+.centerX {
+    display: flex;
+    align-items: center;
+}
+
+.noneData {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.tag-red {
+    color: red;
+    border: 2rpx solid red;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+    padding: 0 5px;
+}
+
+.allBg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    background: white;
+}
+
+.blueButton {
+    width: 300px;
+    background: #007aff;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 5px;
+}
+
+.bottonCenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

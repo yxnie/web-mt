@@ -1,0 +1,121 @@
+{
+  "id": "1583181",
+  "name": "meituan",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "美团项目",
+  "glyphs": [
+    {
+      "icon_id": "877991",
+      "name": "丽人",
+      "font_class": "liren",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "2732174",
+      "name": "bar",
+      "font_class": "bar",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "2732178",
+      "name": "decorate",
+      "font_class": "decorate",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "2732180",
+      "name": "ktv",
+      "font_class": "ktv",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "2732182",
+      "name": "married",
+      "font_class": "married",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "2732184",
+      "name": "sport",
+      "font_class": "sport",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "3058818",
+      "name": "猫眼new",
+      "font_class": "Artboard",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3304503",
+      "name": "life",
+      "font_class": "life",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "4088765",
+      "name": "food",
+      "font_class": "food",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "7966818",
+      "name": "交通-轮船1",
+      "font_class": "jiaotong-lunchuan",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "9845038",
+      "name": "child",
+      "font_class": "child",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9845040",
+      "name": "外卖",
+      "font_class": "waimai",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "9845042",
+      "name": "zhenguo",
+      "font_class": "zhenguo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "9845043",
+      "name": "medical",
+      "font_class": "medical",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "9845046",
+      "name": "education",
+      "font_class": "education",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9845096",
+      "name": "Hotel",
+      "font_class": "Hotel",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}
